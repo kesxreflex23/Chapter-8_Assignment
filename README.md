@@ -67,21 +67,39 @@ http://localhost:5174
 
 ## Project Structure
 employee-directory/
+
 ├── src/
+
 │   ├── components/
+
 │   │   ├── EmployeeForm.vue    # Add/Edit form with validation
+
 │   │   ├── EmployeeList.vue    # Employee table with actions
+
 │   │   └── SearchSort.vue      # Search and sort controls
+
 │   ├── services/
+
 │   │   └── api.js              # Axios instance and API helpers
+
 │   ├── App.vue                 # Parent component, state management
+
 │   ├── main.js
+
 │   └── style.css
+
 ├── server/
+
 │   └── index.js                # Express REST API
+
 ├── sql/
+
 │   └── schema.sql              # Database schema and seed data
+
 ├── index.html
+
 ├── package.json
+
 ├── vite.config.js
+
 └── README.md
